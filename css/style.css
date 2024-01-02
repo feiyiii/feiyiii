@@ -9,6 +9,14 @@ html, body{
 	font-size: 100%;
 	background: #FFf;
 }
+titlebody{
+	font-family: 'Raleway', sans-serif;
+	font-size: 180%;
+	background: rgba(255, 255, 255, 0);
+	color:rgb(255, 255, 255);
+	font-family: inherit;
+	font-weight: 500;
+}
 body a {
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -448,24 +456,24 @@ span.devide-line {
 	background: #53bed6;
 	left: 50%;
 }
-.experience-left h4, .experience-left-fst h4, .experience-left-trd h4,.experience-right-snd h4, .experience-right-trd h4 {
+.experience-left h4, .experience-left-fst h4, .experience-left-trd h4,.experience-right-snd h4, .experience-right-trd h4, .experience-right-fourth h4  {
   font-size: 1.2 em;
   color: #53bed6;
   margin: 0px;
   text-transform: uppercase;
 }
-.experience-left h5, .experience-left-fst h5, .experience-left-trd h5,.experience-right-snd h5 , .experience-right-trd h5{
+.experience-left h5, .experience-left-fst h5, .experience-left-trd h5,.experience-right-snd h5 , .experience-right-trd h5, .experience-right-fourth h5 {
    font-size: 1 em;
   color: #34353a;
   margin: 14px 0;
 }
-.experience-left p, .experience-left-fst p, .experience-left-trd p,.experience-right-snd p, .experience-right-trd p {
+.experience-left p, .experience-left-fst p, .experience-left-trd p,.experience-right-snd p, .experience-right-trd p, .experience-right-fourth p {
   font-size: 0.8em;
   color: #555;
   margin-top: 5px;
   line-height: 1.8em;
 }
-.experience-left, .experience-left-fst,.experience-left-snd, .experience-left-trd {
+.experience-left, .experience-left-fst,.experience-left-snd, .experience-left-trd  {
 	font-size: 0.8 em;
 	width: 45%;
 	position: absolute;
@@ -482,9 +490,9 @@ span.devide-line {
 	top:22.35em;
 }
 .experience-left-trd {
-	top: 150.35em;
+	top: 165em;
 }
-.experience-left span,.experience-left-fst span, .experience-left-snd span, .experience-left-trd span {
+.experience-left span,.experience-left-fst span, .experience-left-snd span, .experience-left-trd span{
    color: #53bed6;
   font-size: 1.7em;
   position: relative;
@@ -521,7 +529,15 @@ span.devide-line {
 	text-align: left;
 }
 .experience-right-trd {
-	top: 138em;
+	top: 148em;
+	width: 45%;
+	position: absolute;
+
+	left: 55%;
+	text-align: left;
+}
+.experience-right-fourth {
+	top: 160em;
 	width: 45%;
 	position: absolute;
 
